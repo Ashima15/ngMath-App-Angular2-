@@ -1,0 +1,15 @@
+<h1 class="text-center">Multiplication</h1> <br> <br>
+<div class="tile col-md-3 col-md-offset-4">
+     <br><input type="text" [(ngModel)]="firstNo" class="text-right"> <br> <br>
+     <input type="text" [(ngModel)]="secondNo" class="text-right">
+     <input type="text" class="text-left" value="*"> <br>
+     <hr>
+     <input type="text" [(ngModel)]="answer" class="text-right"> <br> <br>
+     <div *ngIf="generate">
+         <button class="btn btn-primary" (click)="generateNo()">Next</button>
+     </div>
+     <div *ngIf="!generate">
+        <button class="btn btn-primary" (click)="generateAns()">Calculate</button>
+     </div>
+     <br>
+</div>

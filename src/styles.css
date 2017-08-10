@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+.tile{
+    background-color: white;
+    border: 1px solid #398ab8;
+    color: #398ab8;
+    text-align: center;
+    position: absolute;
+}
+
+input{
+    border: 0px;
+    
+}
